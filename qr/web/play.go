@@ -44,11 +44,11 @@ import (
 	"strings"
 	"time"
 
-	"code.google.com/p/rsc/appfs/fs"
-	"code.google.com/p/rsc/gf256"
-	"code.google.com/p/rsc/qr"
-	"code.google.com/p/rsc/qr/coding"
-	"code.google.com/p/rsc/qr/web/resize"
+	"github.com/xzl8028/rsc/appfs/fs"
+	"github.com/xzl8028/rsc/gf256"
+	"github.com/xzl8028/rsc/qr"
+	"github.com/xzl8028/rsc/qr/coding"
+	"github.com/xzl8028/rsc/qr/web/resize"
 )
 
 func runTemplate(c *fs.Context, w http.ResponseWriter, name string, data interface{}) {
